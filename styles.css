@@ -1,0 +1,141 @@
+/* Mobile Styles */
+@media only screen and (max-width: 375px) {
+    img {
+        background-image: url(./image-product-mobile.jpg);
+        background-repeat: no-repeat;
+        background-size: contain ;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    img{
+    background-image: url(./image-product-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: contain ;
+    }
+
+}
+    
+
+body{
+   background: hsl(30, 38%, 92%);
+}
+
+span{
+    display: inline-block;
+    width: 300px;
+}
+
+#card{
+    width: 600px;
+    height: 450px;
+    background: hsl(0, 0%, 100%);
+    margin: 120px auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 10px;
+
+}
+
+#perfume {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    color: #6C7289;
+    line-height: 14.63px;
+    letter-spacing: 5px;
+    margin-top: 32px;
+    width: 92px;
+    height: 15px;
+    text-align: left;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 300px;
+}
+
+#title {
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    font-style: normal;
+    color: #1C232B;
+    line-height: 32px;
+    margin-top: 0;
+    width: 236px;
+    height: 96px;
+    text-align: left;
+    justify-content: space-between;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+#text{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500px;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 23px;
+    width: 237px;
+    color: #6C7289;
+    max-width: 300px;
+    margin-top: 0px;
+}
+
+#pricebox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -15px;
+    max-width: 300px;
+    
+}
+
+#price {
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 700px;
+    font-size: 32px;
+    font-style: normal;
+    color: #3D8168;
+    line-height: 32px;
+    width: 122px;
+    max-width: 300px;
+    
+
+}
+
+#normal {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    width: 48px;
+    color: #6C7289;
+    line-height: 23px;
+    margin-right: 74px;
+    max-width: 300px;
+}
+
+#shopping {
+    background: #3D8168; 
+    color: #FFFFFF;
+    width: 236px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    max-width: 300px;
+}
+
+#cart {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    padding-left: 10px;
+}
+
+svg {
+    width: 14px;
+    height: 16px;
+    left: 0px;
+    margin-top: 14px;   
+}

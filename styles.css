@@ -1,21 +1,3 @@
-/* Mobile Styles */
-@media only screen and (max-width: 375px) {
-    img {
-        background-image: url(./image-product-mobile.jpg);
-        background-repeat: no-repeat;
-        background-size: contain ;
-    }
-}
-
-@media only screen and (min-width: 1440px) {
-    img{
-    background-image: url(./image-product-desktop.jpg);
-    background-repeat: no-repeat;
-    background-size: contain ;
-    }
-
-}
-    
 
 body{
    background: hsl(30, 38%, 92%);
